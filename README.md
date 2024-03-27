@@ -31,14 +31,17 @@ pip install -r requirements.txt
 ## 2. Data Preparation
 Place the processed datasets for PDBbind, Kinase, and DUD-E in the `data/` directory. Below is a sample entry for each of the curated datasets:
 * PDBbind
+  
 |PDB-ID|seq|rdkit_smiles|label|set|
 | :----- | :-----: | :-----: | :-----: | -----: |
 |11gs|PYTVV...GKQ|CC[C@@H](CSC[C@H]...C(=O)c1ccc(OCC(=O)O)c(Cl)c1Cl|5.82|train|
 * Kinase
+  
 |PDB-ID|seq|rdkit_smiles|label|set|
 | :----- | :-----: | :-----: | :-----: | -----: |
 |Q14012|MLGA...HQL|N#Cc1ccc(NC(=O)Nc2ccnc3cc(C(F)(F)F)ccc23)nc1|0.0|train|
 * DUD-E
+  
 |PDB-ID|seq|rdkit_smiles|label|set|
 | :----- | :-----: | :-----: | :-----: | -----: |
 |andr|FLNV...HTQ|O=c1cc(-c2ccccc2)[nH]c2cc(-c3ccc(I)cc3)nn12|0|train|
